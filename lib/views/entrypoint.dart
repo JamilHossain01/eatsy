@@ -3,7 +3,7 @@ import 'package:eatsy/controllers/tab_index_controller.dart';
 import 'package:eatsy/main.dart';
 import 'package:eatsy/views/cart/cart_page.dart';
 import 'package:eatsy/views/home/home_page.dart';
-import 'package:eatsy/views/profile/home_page.dart';
+import 'package:eatsy/views/profile/profile_page.dart';
 import 'package:eatsy/views/search/search_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
