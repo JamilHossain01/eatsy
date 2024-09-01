@@ -8,7 +8,6 @@ import 'package:eatsy/views/search/search_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:get/get.dart';
-import 'package:get/state_manager.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({
