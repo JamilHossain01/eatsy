@@ -1,9 +1,9 @@
-import 'package:eatsy/common/app_style.dart';
-import 'package:eatsy/common/reuseable_text.dart';
-import 'package:eatsy/constants/constants.dart';
-import 'package:eatsy/controllers/tab_index_controller.dart';
+import 'package:eatsy/common/reusable_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../constants/constants.dart';
+import 'app_style.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
@@ -36,7 +36,7 @@ class CustomAppBar extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ReuseableText(
+                      ReusableText(
                           text: "Deliver to",
                           style: appStyle(13, kSecondary, FontWeight.w600)),
                       SizedBox(
@@ -51,24 +51,25 @@ class CustomAppBar extends StatelessWidget {
               ],
             ),
             Text(
-              getTimeofDay(),
-              style: const TextStyle(fontSize: 35),
+              getTimeOfDay(),
+              style: const TextStyle(fontSize: 30),
             )
           ],
         ),
       ),
     );
   }
-}
 
-String getTimeofDay() {
-  DateTime now = DateTime.now();
-  int hour = now.hour;
-  if (hour >= 0 && hour < 12) {
-    return '☀️';
-  } else if (hour >= 12 && hour < 16) {
-    return '⛅';
-  } else {
-    return '🌙';
+  String getTimeOfDay() {
+    DateTime now = DateTime.now();
+    int hour = now.hour;
+
+    if (hour >= 0 && hour < 12) {
+      return ' ☀️ ';
+    } else if (hour >= 12 && hour < 16) {
+      return ' ⛅ ';
+    } else {
+      return ' 🌙 ';
+    }
   }
 }

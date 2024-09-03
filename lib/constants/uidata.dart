@@ -4,7 +4,7 @@ List<dynamic> categories = [
     "title": "Fried Rice",
     "value": "fried_rice",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/4a4cd06e-94de-4478-8588-66eee01354d4-rice.png",
+        "https://fullofplants.com/wp-content/uploads/2020/05/sweet-and-sour-spicy-thai-fried-rice-easy-vegan-meal-with-vegetables-thumb-500x500.jpg",
     "createdAt": "2023-10-24T16:12:23.571Z",
     "updatedAt": "2023-10-24T16:12:23.571Z",
     "__v": 0
@@ -13,40 +13,35 @@ List<dynamic> categories = [
     "_id": "65310f3381e4d98d60b093c5",
     "title": "Curry",
     "value": "curry",
-    "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/ee2d952c-1d7d-48f7-81b3-cb967343eb6c-curry.png",
+    "imageUrl": "https://img.icons8.com/plasticine/100/000000/curry.png",
     "__v": 0
   },
   {
     "_id": "6531206cbbe4998e90af3feb",
     "title": "Pizza",
     "value": "pizza",
-    "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/466693e6-f999-42e0-8794-09325ece1b45-Pizza.png",
+    "imageUrl": "https://img.icons8.com/plasticine/100/000000/pizza.png",
     "__v": 0
   },
   {
     "_id": "6531209dbbe4998e90af3fef",
     "title": "Pasta",
     "value": "pasta",
-    "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/6645cf41-bc89-4dd0-9f80-bba9487633b2-Spaghetti.png",
+    "imageUrl": "https://img.icons8.com/plasticine/100/000000/spaghetti.png",
     "__v": 0
   },
   {
     "_id": "653120babbe4998e90af3ff1",
     "title": "Beverages",
     "value": "beverages",
-    "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/93c4b3df-9e55-4308-a834-9fe4ad67c0b3-bar.png",
+    "imageUrl": "https://cdn-icons-png.flaticon.com/512/1994/1994975.png",
     "__v": 0
   },
   {
     "_id": "65312084bbe4998e90af3fed",
     "title": "Burgers",
     "value": "burgers",
-    "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/3c94bc09-b8b9-4961-accb-f68b7e8121cc-Hamburger.png",
+    "imageUrl": "https://img.icons8.com/fluency/96/hamburger.png",
     "__v": 0
   },
   {
@@ -54,7 +49,7 @@ List<dynamic> categories = [
     "title": "Chicken",
     "value": "chicken",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/139718b2-2832-40c5-8d7b-11fd9feb0aac-chicken.png",
+        "https://as2.ftcdn.net/v2/jpg/06/63/97/31/1000_F_663973169_2PNYbQHy6AsdLKd7Ve3GIYDdM16xQE16.jpg",
     "__v": 0
   },
   {
@@ -62,22 +57,22 @@ List<dynamic> categories = [
     "title": "More",
     "value": "more",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/08323562-a3c6-461d-95a3-b3817c99871b-more.png",
+        "https://icons.veryicon.com/png/o/miscellaneous/common-icons-6/more-106.png",
     "__v": 0
   }
 ];
 
-const restaurants = [
+List<dynamic> restaurants = [
   {
     "_id": "6530ebbcc9e72013e5b65933",
     "title": "Lapisara Eatery",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxlJG4IZ4ORRkSgDH6GrKO5So93u8qmK1Sw&s",
     "owner": "fdfsdfsdfs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://marketplace.canva.com/EAFzZd9frfk/1/0/1600w/canva-colorful-illustrative-restaurant-master-chef-logo-4rQv_oY-CF8.jpg",
     "rating": 5,
     "ratingCount": "6765",
     "coords": {
@@ -95,11 +90,11 @@ const restaurants = [
     "title": "Burger King",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://img.etimg.com/thumb/width-640,height-480,imgsize-731189,resizemode-75,msid-72863458/markets/stocks/news/burger-king-india-could-be-a-better-treat-than-mcdonalds-franchisee/burger-thnkstck.jpg",
     "owner": "sjgdsjgfjshhjs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://i.pinimg.com/736x/ca/38/ca/ca38cabfc7f07d97a422859b91df07cd.jpg",
     "rating": 5,
     "ratingCount": "3278",
     "coords": {
@@ -117,11 +112,11 @@ const restaurants = [
     "title": "La Foods",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://ca-times.brightspotcdn.com/dims4/default/29d0684/2147483647/strip/false/crop/5818x3878+0+0/resize/840x560!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F51%2F0f%2F0b4e88704e80bcb130fc4c6e2696%2Fla-photos-1staff-585649-fo-bludsos-bbq-pickles-jlc-0803-15304.JPG",
     "owner": "fgdgdfgd",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/tkvv2kv4nglzildsgyj4",
     "rating": 5,
     "ratingCount": "5666",
     "coords": {
@@ -139,11 +134,11 @@ const restaurants = [
     "title": "Italian Restaurant",
     "time": "6:00am - 9:00pm",
     "imageUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR74Xb-2neu8oeARCsV6gswpmipcxy8KF8KBg&s",
     "owner": "sjgdsjgfjshhjs",
     "code": "41007428",
     "logoUrl":
-        "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp",
+        "https://media.istockphoto.com/id/1145724988/vector/italian-chef-hand-drawing-logo-design-vector-illustration.jpg?s=612x612&w=0&k=20&c=AhdLbqQnNJnjNMCNZIRcTVxYUCaX3VTa8aUdPSwJ6ng=",
     "rating": 5,
     "ratingCount": "3278",
     "coords": {
@@ -158,7 +153,7 @@ const restaurants = [
   }
 ];
 
-List <Map<String, dynamic>> foods = [
+List<Map<String, dynamic>> foods = [
   {
     "_id": "65316968f94c6496dc84f3c1",
     "title": "Tiramisu",
@@ -179,9 +174,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 4, "title": "Cocoa", "price": "0.50"},
       {"id": 5, "title": "Sugar", "price": "0.50"}
     ],
-    "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://img.delicious.com.au/2uS6sbBx/w1200/del/2023/05/p109-really-good-chocolate-cake-with-double-choc-ganache-188754-1.png",
     "__v": 0,
     "category": "6531209dbbe4998e90af3fef",
     "time": "35 min"
@@ -206,9 +200,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 4, "title": "Black Pepper", "price": "0.50"},
       {"id": 5, "title": "Pasta", "price": "3.00"}
     ],
-    "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://www.southernliving.com/thmb/KLv2GAL15FwFl82lhQVAYcIRmsQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_27386_ST_-Spring-Mix_19664-66db92e1ec044cf98250712d7a764303.jpg",
     "__v": 2,
     "category": "6531209dbbe4998e90af3fef",
     "time": "20 min"
@@ -233,9 +226,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 4, "title": "Cherry Tomatoes", "price": "1.00"},
       {"id": 5, "title": "Vinaigrette", "price": "0.50"}
     ],
-   "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://nutriciously.com/wp-content/uploads/Vegan-Breakfast-Bowl-by-Nutriciously-Featured-Image.jpg",
     "__v": 0,
     "category": "6531209dbbe4998e90af3fef",
     "time": "55 min"
@@ -258,9 +250,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 2, "title": "Pepperoni", "price": "2.50"},
       {"id": 3, "title": "Ketch up", "price": "0.50"}
     ],
-    "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://www.foodandwine.com/thmb/7BpSJWDh1s-2M2ooRPHoy07apq4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mozzarella-pizza-margherita-FT-RECIPE0621-11fa41ceb1a5465d9036a23da87dd3d4.jpg",
     "__v": 0,
     "category": "6531209dbbe4998e90af3fef",
     "time": "30 min"
@@ -285,9 +276,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 4, "title": "Coconut Milk", "price": "1.50"},
       {"id": 5, "title": "Ice", "price": "0.50"}
     ],
-   "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://i.pinimg.com/originals/43/64/68/436468412b38cfd2c5b76a00c8091e46.jpg",
     "__v": 0,
     "category": "6531209dbbe4998e90af3fef",
     "time": "25 min"
@@ -318,9 +308,8 @@ List <Map<String, dynamic>> foods = [
       {"id": 4, "title": "Pork", "price": "3.50"},
       {"id": 5, "title": "Barbecue Sauce", "price": "1.00"}
     ],
-    "imageUrl": 
-      "https://d326fntlu7tb1e.cloudfront.net/uploads/5c2a9ca8-eb07-400b-b8a6-2acfab2a9ee2-image001.webp"
-    ,
+    "imageUrl":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEW3-HOmicmBxF-RTDuzuov466joDsLigKQ&s",
     "__v": 0,
     "category": "6531209dbbe4998e90af3fef",
     "time": "45 min"
@@ -389,5 +378,3 @@ const choicesList = [
     "value": "recommended",
   },
 ];
-
-

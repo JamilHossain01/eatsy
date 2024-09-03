@@ -6,7 +6,7 @@ class ReuseableText extends StatelessWidget {
   final TextStyle style;
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return  Text(
       text,
       textAlign: TextAlign.left,
       maxLines: 1,

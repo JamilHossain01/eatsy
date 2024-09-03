@@ -14,12 +14,10 @@ class CartPage extends StatelessWidget {
       appBar: PreferredSize(
           preferredSize: Size.fromHeight(130.h),
           child: Container(
-            height: 130.h,
+            height: 130,
           )),
       body: SafeArea(
-        child: CustomContainer(
-          containerContent: Container(),
-        ),
+        child: CustomContainer(containerContent: Container()),
       ),
     );
   }

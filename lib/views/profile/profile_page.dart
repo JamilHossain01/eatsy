@@ -1,7 +1,8 @@
-import 'package:eatsy/common/custom_container.dart';
-import 'package:eatsy/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../common/custom_container.dart';
+import '../../constants/constants.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -13,12 +14,10 @@ class ProfilePage extends StatelessWidget {
       appBar: PreferredSize(
           preferredSize: Size.fromHeight(130.h),
           child: Container(
-            height: 130.h,
+            height: 130,
           )),
       body: SafeArea(
-        child: CustomContainer(
-          containerContent: Container(),
-        ),
+        child: CustomContainer(containerContent: Container()),
       ),
     );
   }

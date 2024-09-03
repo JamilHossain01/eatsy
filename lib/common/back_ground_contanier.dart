@@ -16,7 +16,7 @@ class BackGroundContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width,
-      height: hieght,  // Corrected from 'hieght' to 'height'
+      height: height, // Corrected from 'hieght' to 'height'
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.only(
@@ -26,7 +26,8 @@ class BackGroundContainer extends StatelessWidget {
         image: const DecorationImage(
           image: AssetImage('assets/images/restaurant_bk.png'),
           fit: BoxFit.cover,
-          opacity: 0.7,  // Corrected opacity value to be within valid range (0.0 - 1.0)
+          opacity:
+              0.7, // Corrected opacity value to be within valid range (0.0 - 1.0)
         ),
       ),
       child: child,
