@@ -55,7 +55,7 @@ class CategoryWidget extends StatelessWidget {
                     fit: BoxFit.contain,
                   ),
                 ),
-                ReusableText(
+                ReuseableText(
                     text: category['title'],
                     style: appStyle(12, kDark, FontWeight.normal))
               ],
